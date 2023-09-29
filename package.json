@@ -1,0 +1,21 @@
+{
+  "name": "node-learning",
+  "version": "1.0.0",
+  "description": "demo project",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Atul Gautam",
+  "license": "ISC",
+  "dependencies": {
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "sharp": "^0.32.6"
+  }
+}
